@@ -1,7 +1,7 @@
-export default function App() {
-  return (
-    <div>
-      College Management System
-    </div>
-  )
+import Home  from "./pages/Home";
+
+function App() {
+  return <Home />
 }
+
+export default App
